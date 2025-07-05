@@ -266,3 +266,19 @@ def main():
 
 if _name_ == "_main_":
     main()
+import networkx as nx
+import matplotlib.pyplot as plt
+
+# Création du graphe
+G = nx.DiGraph()
+
+# Ajout des entités principales
+entities = [
+    "University1", "University2",
+    "Faculté des Lettres Modernes", "Faculté d'Informatique", "Faculté SEA",
+    "Teacher1", "Teacher2",
+    "Student1", "Student2",
+    "Session Course1", "Session Course2",
+    "City1", "City2",
+    "Cameroun", "Burkina Faso",
+    "Afrique"
